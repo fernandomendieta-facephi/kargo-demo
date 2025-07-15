@@ -13,7 +13,7 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - image: public.ecr.aws/nginx/nginx:1.29.0
+      - image: public.ecr.aws/nginx/nginx:1.29.0-bookworm-perl-arm64v8
         name: nginx
         volumeMounts:
         - mountPath: /usr/share/nginx/html
